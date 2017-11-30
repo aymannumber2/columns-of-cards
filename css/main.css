@@ -1,4 +1,60 @@
 html {
-  float: left;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+
+h2 {
   text-align: center;
+  font-weight: bolder;
+}
+
+h3 {
+  font-weight: bold;
+  margin: 1em 0 0 1em;
+}
+
+a {
+  color: #f2f2f2;
+  text-decoration: none;
+  background-color: #333;
+  padding: .5em;
+  border-radius: .5em;
+  display: inline-block;
+  margin: 2em 0 4em 1em;
+}
+
+img {
+  display: block;
+  margin: 0 auto 1.5rem;
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0 0 0 1em;
+}
+
+.author {
+  font-style: italic;
+}
+
+.col {
+  float: left;
+  width: 25%;
+  background-color: grey;
+}
+
+.col-1 {
+  background-color: #e2e2e2;
+}
+
+.col-2 {
+  background-color: #ccc;
+}
+
+.col-3 {
+  background-color: #aaa;
+}
+
+.col-4 {
+  background-color: #999;
 }
