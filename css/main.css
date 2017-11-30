@@ -1,6 +1,11 @@
 html {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 h2 {
@@ -57,4 +62,8 @@ p {
 
 .col-4 {
   background-color: #999;
+}
+
+.btn:hover {
+  background-color: black;
 }
